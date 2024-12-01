@@ -28,21 +28,17 @@ This project provides a complete solution for managing student seating and atten
 
 ### Python Application
 1. **Requirements**:
-   - Python 3.8+
-   - Required libraries (install with `pip install -r requirements.txt`):
-     - `pandas`
-     - `numpy`
+   - Python 3.7+
 2. **Usage**:
    - Place your input CSV (`students.csv`) in the project directory. The file should include:
      ```
-     Name, Form
-     John Doe, 12A
-     Jane Smith, 11B
+     Doe, John,Form VI
+     Smith, Jack,Form VI
      ...
      ```
    - Run the script:
      ```bash
-     python generate_seating.py
+     python makeLower.py
      ```
    - The output CSV (`chapel_seating.csv`) will be generated in the project directory.
 
